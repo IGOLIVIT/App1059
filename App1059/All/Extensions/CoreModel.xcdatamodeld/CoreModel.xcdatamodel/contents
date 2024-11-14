@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="PersModel" representedClassName="PersModel" syncable="YES" codeGenerationType="class">
+        <attribute name="pAv" optional="YES" attributeType="String"/>
+        <attribute name="pFLName" optional="YES" attributeType="String"/>
+        <attribute name="pStatus" optional="YES" attributeType="String"/>
+        <attribute name="pTCPD" optional="YES" attributeType="String"/>
+        <attribute name="pTCPW" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SchedModel" representedClassName="SchedModel" syncable="YES" codeGenerationType="class">
+        <attribute name="scDay" optional="YES" attributeType="String"/>
+        <attribute name="scPerson" optional="YES" attributeType="String"/>
+        <attribute name="scR1Dish" optional="YES" attributeType="String"/>
+        <attribute name="scR1RC" optional="YES" attributeType="String"/>
+        <attribute name="scR1TM" optional="YES" attributeType="String"/>
+        <attribute name="scR2Dish" optional="YES" attributeType="String"/>
+        <attribute name="scR2RC" optional="YES" attributeType="String"/>
+        <attribute name="scR2TM" optional="YES" attributeType="String"/>
+    </entity>
+</model>
